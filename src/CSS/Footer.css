@@ -1,0 +1,118 @@
+.footer {
+    background: #fff;
+    color: #333;
+    padding-top: 30px;
+  }
+  
+  .footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+  }
+  
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .footer .footer-content .logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    font-family: "contain";
+
+  }
+  
+  .footer .footer-content .logo-text span {
+    color: #3498db;
+  }
+  
+  .footer .footer-content p {
+    color: #777;
+    margin: 10px 0;
+    font-family: "congo";
+
+  }
+  
+  .footer .footer-content .contact span {
+    display: block;
+    margin: 5px 0;
+    color: #777;
+    font-family: "congo";
+
+  }
+  
+  .footer .footer-content .socials a {
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .footer .footer-content .socials a:hover {
+    color: #3498db;
+  }
+  
+  .footer .footer-section h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #333;
+    font-family: "contain";
+  }
+  
+  .footer .footer-section ul {
+    list-style: none;
+    font-family: "congo";
+
+  }
+  
+  .footer .footer-section ul a {
+    text-decoration: none;
+    color: #777;
+    display: block;
+    margin: 10px 0;
+    transition: color 0.3s, padding-left 0.3s;
+  }
+  
+  .footer .footer-section ul a:hover {
+    color: #3498db;
+    padding-left: 10px;
+  }
+  
+  .footer .footer-section .contact-form .contact-input {
+    color: #333;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: "congo" !important;
+    width: 100%;
+  }
+  
+  .footer .footer-section .contact-form .btn {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-family: "contain" !important;
+
+  }
+  
+  .footer .footer-section .contact-form .btn:hover {
+    background: #2980b9;
+  }
+  
+  .footer-bottom {
+    background: #f1f1f1;
+    color: #777;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "congo";
+
+  }
+  

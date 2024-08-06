@@ -1,0 +1,146 @@
+/* home.css */
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "congo"; /* Fallback for 'contain' */
+
+  }
+  
+  .portfolio-title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .portfolio-title p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .box {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "congo"; /* Fallback for 'contain' */
+  }
+  
+  .profile .subtitle {
+    font-size: 1.5rem;
+    color: #777;
+  }
+  
+  .home-profile {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .profile p {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1200px) {
+    .portfolio-title h1 {
+      font-size: 2.2rem;
+    }
+  
+    .portfolio-title p {
+      font-size: 1.1rem;
+    }
+  
+    .profile h3 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .portfolio-title h1 {
+      font-size: 2rem;
+    }
+  
+    .portfolio-title p {
+      font-size: 1rem;
+    }
+  
+    .profile h3 {
+      font-size: 1.6rem;
+    }
+    .display{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-title h1 {
+      font-size: 1.8rem;
+    }
+  
+    .portfolio-title p {
+      font-size: 0.9rem;
+    }
+  
+    .profile h3 {
+      font-size: 1.4rem;
+    }
+  
+    .profile p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .portfolio-title h1 {
+      font-size: 1.5rem;
+    }
+  
+    .portfolio-title p {
+      font-size: 0.8rem;
+    }
+  
+    .profile h3 {
+      font-size: 1.2rem;
+    }
+  
+    .profile .subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .profile p {
+      font-size: 0.8rem;
+    }
+    .icons .i-con{
+        width: 120px;
+        margin: 50px auto;
+      }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .display{
+        display: none;
+    }
+  }
+  
+  .icons .i-con{
+    transform: rotate(90deg);
+    width: 120px;
+    margin: 50px auto;
+  }
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
