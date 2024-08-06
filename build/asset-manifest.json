@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df9e19ff.css",
+    "main.js": "/static/js/main.8f4c5a12.js",
+    "static/media/PFHandbookPro-Regular.ttf": "/static/media/PFHandbookPro-Regular.1df7a1545cf43a46f8d7.ttf",
+    "static/media/Caveat-Bold.ttf": "/static/media/Caveat-Bold.b4c2105c3a62bce010d1.ttf",
+    "index.html": "/index.html",
+    "main.df9e19ff.css.map": "/static/css/main.df9e19ff.css.map",
+    "main.8f4c5a12.js.map": "/static/js/main.8f4c5a12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df9e19ff.css",
+    "static/js/main.8f4c5a12.js"
+  ]
+}
